@@ -21,7 +21,7 @@
 title: Brendan Mapes
 email: brendanmapes42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Here's a collection of things &mdash all either about me, by me, or just interesting to me. 
+ Here's a collection of things '&mdash' about me, by me, or just interesting to me. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
