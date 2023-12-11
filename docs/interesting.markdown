@@ -4,4 +4,4 @@ title: Interesting to Me
 permalink: /interesting/
 ---
 
-Here's some stuff that's interesting to me.  
+Here's some stuff I think is interesting. 
