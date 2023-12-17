@@ -28,7 +28,7 @@ linkedin_username: brendanmapes
 github_username: brendanmapes
 
 # Build settings
-theme: cayman
+theme: minima
 plugins:
   - jekyll-feed
 
