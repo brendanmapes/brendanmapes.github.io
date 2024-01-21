@@ -6,4 +6,4 @@ permalink: /by/
 
 Here's some stuff I've done.
 
-<object data="{{ site.url }}{{ site.baseurl }}/_pdfs/thesis.pdf" width="1000" height="1000" type="application/pdf"></object>
+<a href="https://brendanmapes.github.io/_pdfs/thesis.pdf">mypdf</a>
