@@ -2,6 +2,7 @@
 layout: page
 title: Reading
 permalink: /reading/
+order: 4
 ---
 
 Here's some stuff I think is interesting. 
