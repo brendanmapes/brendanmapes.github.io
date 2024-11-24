@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /by/
+permalink: /projects/
 ---
 
 Here's some stuff I've done.
