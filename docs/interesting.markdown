@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Interesting
-permalink: /interesting/
+title: Reading
+permalink: /reading/
 ---
 
 Here's some stuff I think is interesting. 
