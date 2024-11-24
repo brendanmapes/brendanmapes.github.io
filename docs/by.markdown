@@ -1,6 +1,6 @@
 ---
 layout: page
-title: By Me
+title: By
 permalink: /by/
 ---
 
