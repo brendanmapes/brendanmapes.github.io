@@ -1,4 +1,6 @@
+---
 layout: page
 title: Writing
-permalink: /reading/
-order: 4
+permalink: /writing/
+order: 5
+---
