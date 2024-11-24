@@ -1,8 +1,5 @@
 ---
 layout: page
-order: 1
-title: About
-permalink: /about/
 ---
 
 In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). 
