@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interesting to Me
+title: Interesting
 permalink: /interesting/
 ---
 
