@@ -1,6 +1,6 @@
 ---
 layout: page
-title: By
+title: Projects
 permalink: /by/
 ---
 
