@@ -2,7 +2,11 @@
 layout: page
 ---
 
-In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). 
-During my time at Columbia, I studied probability and statistics, as the foundation of emerging data science techniques, as well as how to apply those data science techniques, like data mining, machine learning, and AI, in a wide variety of fields.
+Welcome to my site. It's a work in progress. 
 
-Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
+I work at Public Policy Lab, a design research and service design consulting firm based in Brooklyn. 
+
+In May 2023, I graduated from Columbia University with master's degrees in data science and social policy. 
+
+On this site I've collected a sample of projects I've worked on and some stuff I've been reading. 
+
