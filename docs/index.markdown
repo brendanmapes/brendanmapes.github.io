@@ -6,8 +6,7 @@ Welcome to my site. It's a work in progress.
 
 I work at Public Policy Lab, a design research and service design consulting firm based in Brooklyn. 
 
-![Work Photo 1](brendanmapes.github.io/images/IMG_4897.jpg)
-
+![Work Photo 1](brendanmapes.github.io/images/snap.png)
 
 In May 2023 I graduated from Columbia University with master's degrees in data science and social policy. 
 
