@@ -7,14 +7,13 @@ Welcome to my site. It's a work in progress.
 I work at Public Policy Lab, a design research and service design consulting firm based in Brooklyn. 
 
 <p float="left">
-  <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/37f697ae34355b6e1f7cb562c7bd3b54d2fe384d/images/IMG_4897.jpg" alt="PPL
+  <img src="https://github.com/brendanmapes/brendanmapes.github.io/images/IMG_4897.jpg" alt="PPL
   photo" width="200"/>
-  <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/3c35bbbffa95bd4f7ed46c2392521a9474a7035e/images/IMG_7858.JPG" alt="PPL
+  <img src="https://github.com/brendanmapes/brendanmapes.github.io/images/IMG_7858.JPG" alt="PPL
   photo 2" width="150"/>
-   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/11d7abaf2f170a3c6ac0a7b9e15673155b42a3f6/images/IMG_9508.JPG" alt="PPL
+   <img src="https://github.com/brendanmapes/brendanmapes.github.io/images/IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
-  <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/d988a0d819533917b52bfc46bab9aef7614d29fc/images/IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
-
+  <img src="https://github.com/brendanmapes/brendanmapes.github.io/images/IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
 </p>
 
 
