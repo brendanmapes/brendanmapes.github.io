@@ -11,7 +11,7 @@ I work at Public Policy Lab, a design research and service design consulting fir
   photo" width="200"/>
   <img src="/images/IMG_7858.JPG" alt="PPL
   photo 2" width="150"/>
-   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/images/IMG_9508.JPG" alt="PPL
+   <img src="/images/IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
   <img src="/images/IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
 </p>
