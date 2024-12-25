@@ -11,12 +11,12 @@ During my time at Columbia, I studied probability and statistics, as the foundat
 Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
 
 <p float="left">
-  <img src="IMG_4897.jpg" alt="PPL
+  <img src="./IMG_4897.jpg" alt="PPL
   photo" width="200"/>
-  <img src="IMG_7858.JPG" alt="PPL
+  <img src="./IMG_7858.JPG" alt="PPL
   photo 2" width="150"/>
-   <img src="IMG_9508.JPG" alt="PPL
+   <img src="./IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
-  <img src="IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
+  <img src="./IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
 </p>
 
