@@ -13,6 +13,8 @@ I work at Public Policy Lab, a design research and service design consulting fir
   photo 2" width="150"/>
    <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/11d7abaf2f170a3c6ac0a7b9e15673155b42a3f6/images/IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
+  <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/d988a0d819533917b52bfc46bab9aef7614d29fc/images/IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
+
 </p>
 
 
