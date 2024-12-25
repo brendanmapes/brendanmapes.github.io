@@ -6,7 +6,7 @@ Welcome to my site. It's a work in progress.
 
 I work at Public Policy Lab, a design research and service design consulting firm based in Brooklyn. 
 
-<img src="images/snap.png" alt="PPL photo" width="200"/>
+![PPL photo|200](https://image.png)
 
 In May 2023 I graduated from Columbia University with master's degrees in data science and social policy. 
 
