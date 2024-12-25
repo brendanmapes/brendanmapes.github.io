@@ -11,11 +11,10 @@ I work at Public Policy Lab, a design research and service design consulting fir
   photo" width="200"/>
   <img src="/images/IMG_7858.JPG" alt="PPL
   photo 2" width="150"/>
-   <img src="/images/IMG_9508.JPG" alt="PPL
+   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/53f1fd83dc33a102fce945366195414ec8ca3fd6/images/IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
   <img src="/images/IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="200"/>
 </p>
-
 
 In May 2023 I graduated from Columbia University with master's degrees in data science and social policy. 
 
