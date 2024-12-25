@@ -11,7 +11,7 @@ I work at Public Policy Lab, a design research and service design consulting fir
   photo" width="200"/>
   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/3c35bbbffa95bd4f7ed46c2392521a9474a7035e/images/IMG_7858.JPG" alt="PPL
   photo 2" width="150"/>
-   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/3c35bbbffa95bd4f7ed46c2392521a9474a7035e/images/IMG_7858.JPG" alt="PPL
+   <img src="https://github.com/brendanmapes/brendanmapes.github.io/blob/11d7abaf2f170a3c6ac0a7b9e15673155b42a3f6/images/IMG_9508.JPG" alt="PPL
   photo 3 " width="150"/>
 </p>
 
