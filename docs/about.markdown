@@ -22,10 +22,10 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
 
 <p float="left">
   <img src="../IMG_4897.jpg" alt="PPL
-  photo" width="400"/>
+  photo" width="350"/>
   <img src="../IMG_7858.JPG" alt="PPL
-  photo 2" width="350"/>
-  <img src="../IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="400"/>
-  <img src="../IMG_9508.JPG" alt="PPL photo 3 " width="350"/>
+  photo 2" width="300"/>
+  <img src="../IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="350"/>
+  <img src="../IMG_9508.JPG" alt="PPL photo 3 " width="300"/>
 </p>
 
