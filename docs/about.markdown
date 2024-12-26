@@ -12,8 +12,6 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
   photo" width="200" />
   <img src="../grad photo.png" alt="grad
   photo 2" width="200" />
-  <img src="../grad2.png" alt="grad
-  photo 2" width="200" />
   <img src="../grad1.png" alt="grad
   photo 2" width="200" />
 </p>
