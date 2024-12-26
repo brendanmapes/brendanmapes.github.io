@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Writing
-permalink: /writing/
-order: 5
+permalink: 
+order: 
 ---
 
 Some stuff I've written
