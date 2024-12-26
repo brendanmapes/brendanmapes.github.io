@@ -14,9 +14,10 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
   photo 2" width="350" />
   <img src="../grad1.png" alt="grad
   photo 2" width="350" />
-   <img src="../IMG-20230512-WA0010.jpg" alt="grad
+   <img src="../_pdfs/IMG-20230512-WA0010.jpg" alt="grad
   photo 2" width="350" />
 </p>
+
 
 Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
 
