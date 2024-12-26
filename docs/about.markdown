@@ -14,7 +14,7 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
   photo 2" width="350" />
   <img src="../grad1.png" alt="grad
   photo 2" width="350" />
-   <img src="../IMG-20230512-WA00010.jpg" alt="grad
+   <img src="../IMG-20230512-WA0010.jpg" alt="grad
   photo 2" width="350" />
 </p>
 
@@ -25,7 +25,7 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
   photo" width="350"/>
   <img src="../IMG_7858.JPG" alt="PPL
   photo 2" width="300"/>
-  <img src="../IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="350"/>
   <img src="../IMG_9508.JPG" alt="PPL photo 3 " width="300"/>
+  <img src="../IMG_7610%20(1).jpeg" alt="PPL photo 4 " width="350"/>
 </p>
 
