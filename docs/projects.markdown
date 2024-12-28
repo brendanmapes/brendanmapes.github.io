@@ -7,7 +7,8 @@ permalink: /projects/
 
 #### Machine learning
 * My <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/976af98db52c8023cbc9bea254705973eaf6489c/docs/_pdfs/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There are some obvious mistakes, outlined by my advisor <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/a6dde11913c666319c79f4c571be37df3c0e736e/docs/_pdfs/comments%20(1).pdf">here</a>. One of these days I'll update accordingly and repost.
-
+ <embed src="https://github.com/brendanmapes/brendanmapes.github.io/blob/976af98db52c8023cbc9bea254705973eaf6489c/docs/_pdfs/thesis.pdf" width="600px" height="500px" />
+ 
 * A repo for a project where I applied machine learning for <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/research_summary.pdf">functional genomics</a> research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducting a more sophisticated definition of cell types during model training, with more detailed cell types encoded as in hierarchical trees. 
 
 #### Data visualization
