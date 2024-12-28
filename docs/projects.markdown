@@ -29,6 +29,15 @@ permalink: /projects/
 ####  Data engineering
 * A <a href="https://pypi.org/project/littlesis/">Python package</a> to help users interact with the database on LittleSis.org, which aims to offer transparency on financial activity and other connections between people with power. This package I made simplifies the experience interacting with LittleSis API for Python users.
 
+<br/><br/>
+{% raw %}
+<iframe src=/"Vignette (littlesis module).ipynb.txt" width="100%" height="500px" style="border:none;"></iframe>
+{% endraw %}
+<br/><br/>
+
+
+
+
 #### Quantitative Social Science
 * An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
 
