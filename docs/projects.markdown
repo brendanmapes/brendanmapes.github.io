@@ -27,8 +27,7 @@ permalink: /projects/
     </style>
 </head>
 <body>
-
-
+    
     <!-- Embed PDF using iframe -->
     <body>
 
@@ -38,7 +37,6 @@ permalink: /projects/
     </iframe>
 
 </body>
-
 
 
 * A repo for a project where I applied machine learning for <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/research_summary.pdf">functional genomics</a> research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducting a more sophisticated definition of cell types during model training, with more detailed cell types encoded in hierarchical trees. 
