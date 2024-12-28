@@ -17,8 +17,6 @@ permalink: /projects/
 </head>
 <body>
 
-    <h1>My PDF Document</h1>
-
     <!-- Embed PDF using iframe -->
     <iframe src="https://github.com/brendanmapes/brendanmapes.github.io/blob/976af98db52c8023cbc9bea254705973eaf6489c/docs/_pdfs/thesis.pdf" 
             width="100%" 
