@@ -16,13 +16,13 @@ permalink: /projects/
     <title>PDF Embed</title>
     <style>
         html, body {
-            height: 500%;
+            height: 50%;
             margin: 0;
             padding: 0;
         }
         iframe {
-            width: 500%;
-            height: 250%;
+            width: 50%;
+            height: 25%;
             border: none;
         }
     </style>
