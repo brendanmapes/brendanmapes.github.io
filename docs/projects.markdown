@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 #### Machine learning
-* My <a href="https://brendanmapes.github.io/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There are some obvious mistakes, outlined by my advisor <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/a6dde11913c666319c79f4c571be37df3c0e736e/docs/_pdfs/comments%20(1).pdf">here</a>. One of these days I'll update accordingly and repost.
+* My <a href="https://brendanmapes.github.io/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There are some mistakes I need to correct, primarily when it came time for me to recall some of my undergrad lessons on physics. <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/a6dde11913c666319c79f4c571be37df3c0e736e/docs/_pdfs/comments%20(1).pdf">here</a>. One of these days I'll update accordingly and repost.
 
 <br/><br/>
 {% raw %}
