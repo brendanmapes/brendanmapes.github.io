@@ -17,12 +17,10 @@ permalink: /projects/
 <body>
 
     <!-- Embed PDF using iframe -->
-    <<body>
+    <body>
 
     <!-- Embed PDF using iframe -->
     <iframe src="/thesis.pdf">
-            width="1000px" 
-            height="500px" 
             frameborder="0">
     </iframe>
 
