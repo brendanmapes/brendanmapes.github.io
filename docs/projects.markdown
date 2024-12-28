@@ -8,8 +8,7 @@ permalink: /projects/
 #### Machine learning
 * My <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/976af98db52c8023cbc9bea254705973eaf6489c/docs/_pdfs/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There are some obvious mistakes, outlined by my advisor <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/a6dde11913c666319c79f4c571be37df3c0e736e/docs/_pdfs/comments%20(1).pdf">here</a>. One of these days I'll update accordingly and repost.
 
-<!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +21,13 @@ permalink: /projects/
 
     <!-- Embed PDF using iframe -->
     <iframe src="/thesis.pdf">
-            width="100%" 
-            height="600px" 
+            width="1000px" 
+            height="500px" 
             frameborder="0">
     </iframe>
 
 </body>
-</html>
+
 
 
  
