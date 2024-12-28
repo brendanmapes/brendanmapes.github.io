@@ -21,8 +21,8 @@ permalink: /projects/
             padding: 0;
         }
         iframe {
-            width: 50%;
-            height: 25%;
+            width: 100%;
+            height: 50%;
             border: none;
         }
     </style>
