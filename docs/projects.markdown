@@ -31,7 +31,7 @@ permalink: /projects/
 
 <br/><br/>
 {% raw %}
-<iframe src=/"Vignette (littlesis module).ipynb.txt" width="100%" height="500px" style="border:none;"></iframe>
+<iframe src="/Vignette (littlesis module).ipynb" width="100%" height="500px" style="border:none;"></iframe>
 {% endraw %}
 <br/><br/>
 
