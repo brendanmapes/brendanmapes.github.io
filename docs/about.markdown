@@ -6,7 +6,7 @@ permalink: /about me/
 ---
 
 In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). I studied probability and statistics, as the foundation of emerging data science techniques, and how to apply those data science techniques, like data mining, machine learning, and AI, in a wide variety of fields.
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
