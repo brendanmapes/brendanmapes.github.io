@@ -38,12 +38,16 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
       border-radius: 8px; /* Rounded corners for images */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
       transition: transform 0.3s ease; /* Smooth transition for enlarging the container */
+      display: flex; /* Use flexbox to center images */
+      align-items: center; /* Vertically center the image */
+      justify-content: center; /* Horizontally center the image */
     }
 
     /* Styling the images to make sure they fit inside the gallery item */
     .gallery-item img {
       width: 100%; /* Ensure the images take up full container width */
-      height: auto; /* Maintain aspect ratio */
+      height: 100%; /* Ensure the images take up full container height */
+      object-fit: cover; /* This ensures images cover the container area without stretching */
       border-radius: 8px; /* Rounded corners for images */
     }
 
