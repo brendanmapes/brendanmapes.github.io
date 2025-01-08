@@ -53,7 +53,7 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
 
     /* Hover effect: enlarge the entire container */
     .gallery-item:hover {
-      transform: scale(1.2); /* Enlarge the entire container (image + border) */
+      transform: scale(1.5); /* Enlarge the entire container (image + border) */
       z-index: 10; /* Bring the container to the front */
     }
   </style>
@@ -82,7 +82,6 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
 
 Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -131,7 +130,7 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
 
     /* Hover effect: enlarge the entire container */
     .photo-item:hover {
-      transform: scale(1.2); /* Enlarge the entire container (image + border) */
+      transform: scale(1.5); /* Enlarge the entire container (image + border) */
       z-index: 10; /* Bring the container to the front */
     }
   </style>
