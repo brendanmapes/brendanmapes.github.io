@@ -7,13 +7,16 @@ permalink: /about me/
 
 In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). I studied probability and statistics, as the foundation of emerging data science techniques, and how to apply those data science techniques, like data mining, machine learning, and AI, in a wide variety of fields.
 
-<div class="photo-gallery">
-  <img src="../IMG-20230511-WA0010.jpg" alt="grad photo" class="gallery-item" />
-  <img src="../grad photo.png" alt="grad photo 2" class="gallery-item" />
-  <img src="../grad1.png" alt="grad photo 3" class="gallery-item" />
-  <img src="../IMG-20230512-WA0009.jpg" alt="grad photo 4" class="gallery-item" />
-</div>
-
+<p float="left">
+  <img src="../IMG-20230511-WA0010.jpg" alt="grad
+  photo" width="350" />
+  <img src="../grad photo.png" alt="grad
+  photo 2" width="350" />
+  <img src="../grad1.png" alt="grad
+  photo 2" width="350" />
+   <img src="../IMG-20230512-WA0009.jpg" alt="grad
+  photo 2" width="350" />
+</p>
 
 Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
 
@@ -28,13 +31,3 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
 
 
 
-<p float="left">
-  <img src="../IMG-20230511-WA0010.jpg" alt="grad
-  photo" width="350" />
-  <img src="../grad photo.png" alt="grad
-  photo 2" width="350" />
-  <img src="../grad1.png" alt="grad
-  photo 2" width="350" />
-   <img src="../IMG-20230512-WA0009.jpg" alt="grad
-  photo 2" width="350" />
-</p>
