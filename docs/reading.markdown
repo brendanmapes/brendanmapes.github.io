@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reading
+title: Miscellaneous
 permalink: /reading/
 order: 4
 ---
