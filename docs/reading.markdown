@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Miscellaneous
-permalink: /reading/
+permalink: /miscellaneous/
 order: 4
 ---
 
