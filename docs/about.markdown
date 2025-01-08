@@ -37,28 +37,21 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
       overflow: hidden; /* Ensures the image doesn't overflow out of the container */
       border-radius: 8px; /* Rounded corners for images */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-      transition: all 0.3s ease; /* Smooth transition for gallery item */
+      transition: transform 0.3s ease; /* Smooth transition for enlarging the container */
     }
 
     /* Styling the images to make sure they fit inside the gallery item */
     .gallery-item img {
       width: 100%; /* Ensure the images take up full container width */
       height: auto; /* Maintain aspect ratio */
-      transition: transform 0.3s ease, z-index 0s 0.3s; /* Smooth transition for hover effects */
       border-radius: 8px; /* Rounded corners for images */
     }
 
-    /* Hover effect: enlarge the image and bring it to the foreground */
-    .gallery-item:hover img {
-      transform: scale(1.3); /* Enlarge the image by 30% */
-      z-index: 10; /* Bring the image to the front */
-    }
-
-    /* Optional: Slightly move the image to the center on hover */
+    /* Hover effect: enlarge the entire container */
     .gallery-item:hover {
-      z-index: 10; /* Bring the entire gallery item to the front */
+      transform: scale(1.2); /* Enlarge the entire container (image + border) */
+      z-index: 10; /* Bring the container to the front */
     }
-
   </style>
 </head>
 <body>
@@ -80,6 +73,7 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
 
 </body>
 </html>
+
 
 
 Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
