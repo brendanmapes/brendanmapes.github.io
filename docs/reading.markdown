@@ -2,7 +2,7 @@
 layout: page
 title: Miscellaneous
 permalink: /miscellaneous/
-order: 4
+order: 5
 ---
 
 Here's some stuff I think is interesting. 
