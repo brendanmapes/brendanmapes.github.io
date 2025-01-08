@@ -37,19 +37,26 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
       overflow: hidden; /* Ensures the image doesn't overflow out of the container */
       border-radius: 8px; /* Rounded corners for images */
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+      transition: all 0.3s ease; /* Smooth transition for gallery item */
     }
 
     /* Styling the images to make sure they fit inside the gallery item */
     .gallery-item img {
       width: 100%; /* Ensure the images take up full container width */
       height: auto; /* Maintain aspect ratio */
-      transition: transform 0.3s ease; /* Smooth transition for hover effects */
+      transition: transform 0.3s ease, z-index 0s 0.3s; /* Smooth transition for hover effects */
       border-radius: 8px; /* Rounded corners for images */
     }
 
-    /* Hover effect: zoom in the image */
+    /* Hover effect: enlarge the image and bring it to the foreground */
     .gallery-item:hover img {
-      transform: scale(1.1); /* Slightly zoom in the image */
+      transform: scale(1.3); /* Enlarge the image by 30% */
+      z-index: 10; /* Bring the image to the front */
+    }
+
+    /* Optional: Slightly move the image to the center on hover */
+    .gallery-item:hover {
+      z-index: 10; /* Bring the entire gallery item to the front */
     }
 
   </style>
