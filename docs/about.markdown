@@ -12,9 +12,64 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Photo Gallery</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4; /* Light background for contrast */
+    }
+
+    /* Photo gallery container using CSS Grid */
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+      gap: 16px; /* Space between the images */
+      padding: 20px; /* Padding around the gallery */
+      justify-items: center; /* Center images in each grid cell */
+    }
+
+    /* Gallery item styling */
+    .gallery-item {
+      position: relative; /* Needed for hover effects */
+      overflow: hidden; /* Ensures the image doesn't overflow out of the container */
+      border-radius: 8px; /* Rounded corners for images */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    }
+
+    /* Styling the images to make sure they fit inside the gallery item */
+    .gallery-item img {
+      width: 100%; /* Ensure the images take up full container width */
+      height: auto; /* Maintain aspect ratio */
+      transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effects */
+      border-radius: 8px; /* Rounded corners for images */
+    }
+
+    /* Hover effect: zoom in and darken the image */
+    .gallery-item:hover img {
+      transform: scale(1.1); /* Slightly zoom in the image */
+      filter: brightness(0.8); /* Darken the image a little on hover */
+    }
+
+    /* Optional: Add some text overlay on hover */
+    .gallery-item:hover::after {
+      content: 'Click to view more'; /* Example text overlay */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Center the text */
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
+
   <div class="photo-gallery">
     <div class="gallery-item">
       <img src="../IMG-20230511-WA0010.jpg" alt="grad photo 1" />
@@ -29,6 +84,7 @@ In 2023 I graduated from Columbia University with master's degrees in data scien
       <img src="../IMG-20230512-WA0009.jpg" alt="grad photo 4" />
     </div>
   </div>
+
 </body>
 </html>
 
