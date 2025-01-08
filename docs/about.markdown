@@ -159,7 +159,7 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
 <br>
 <br>
 
-Before moving to New York, I grew up in Centerburg, Ohio. I went to Oberlin College where I studied Physics and Spanish and played baseball and football. 
+Before moving to New York, I grew up in Centerburg, Ohio. I went to Oberlin College to study physics and Spanish and play baseball and football. 
 
 <html lang="en">
 <head>
