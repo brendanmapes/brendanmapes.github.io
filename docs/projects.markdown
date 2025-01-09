@@ -29,7 +29,7 @@ permalink: /projects/
 {% raw %}
 <iframe src="https://brendan-mapes.shinyapps.io/neighborhood_difficulties_ranked/" width="100%" height="500px" style="border:none;"></iframe>
 {% endraw %}
-<br><br>
+
 
 ####  Data engineering
 * A <a href="https://pypi.org/project/littlesis/">Python package</a> to help users interact with the database on <a href="https://littlesis.org/database">LittleSis.org</a>, which aims to offer transparency on financial activity and other connections between people with power. This package I made simplifies the experience interacting with LittleSis API for Python users.
