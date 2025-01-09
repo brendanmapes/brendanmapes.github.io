@@ -38,8 +38,12 @@ permalink: /projects/
 #### Data analysis
 
 * A  <a href="https://github.com/brendanmapes/data_analysis/tree/main">collection of R scripts</a> for performing various statistical tests and analyses. Html versions linked below for direct viewing.
-* EDA (outliers, standard deviation, interquartile range, bias, variance, bootstrap, jacknife) 
+* <a href="https://brendanmapes.github.io/Problem-set-1.html" target="_blank">EDA</a> (outliers, standard deviation, interquartile range, bias, variance, bootstrap, jacknife) 
 * Two-sample tests (two-sample T test, Wilcoxon rank sum test, resampling, difference in proportions) 
+
+
+
+
 
 #### Quantitative Social Science
 * An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
