@@ -30,7 +30,7 @@ permalink: /projects/
 
 
 ####  Data engineering
-* A <a href="https://pypi.org/project/littlesis/">Python package</a> to help users interact with the database on <a href="https://littlesis.org/database">LittleSis.org</a>, which aims to offer transparency on financial activity and other connections between people with power. This package I made simplifies the experience interacting with LittleSis API for Python users.
+* A <a href="https://pypi.org/project/littlesis/">Python package</a> I developed to help users interact with the database on <a href="https://littlesis.org/database">LittleSis.org</a>, which aims to offer transparency on financial activity and other connections between people with power. This package simplifies the experience interacting with LittleSis API for Python users.
 
 {% raw %}
 <iframe src="https://littlesis.readthedocs.io/en/main/" width="100%" height="300px" style="border:none;"></iframe>
