@@ -26,6 +26,12 @@ permalink: /projects/
 #### Data visualization
 * An <a href="https://www.communitiesspeakproject.com/boroughs">interactive map visualization</a> (that renders rather slowly) of issues facing New Yorkers that were surveyed by a research team I worked with during my time at Columbia, called Communties Speak. The majority of my work for this project was either data engineering or analysis, managing survey data intake through analysis and reporting. Unfortunately we had to use a gradient color palette for discrete, categorical variables on this one.
 
+<br/><br/>
+{% raw %}
+<iframe src="https://brendan-mapes.shinyapps.io/neighborhood_difficulties_ranked/" width="100%" height="500px" style="border:none;"></iframe>
+{% endraw %}
+<br/><br/>
+
 ####  Data engineering
 * A <a href="https://pypi.org/project/littlesis/">Python package</a> to help users interact with the database on <a href="https://littlesis.org/database">LittleSis.org</a>, which aims to offer transparency on financial activity and other connections between people with power. This package I made simplifies the experience interacting with LittleSis API for Python users.
 
