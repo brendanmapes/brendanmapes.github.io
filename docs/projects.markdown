@@ -38,6 +38,12 @@ permalink: /projects/
 #### Data analysis
 
 
+<br/><br/>
+{% raw %}
+<iframe src="/Problem-set-1.html" width="100%" height="500px" style="border:none;"></iframe>
+{% endraw %}
+<br/><br/>
+
 
 #### Quantitative Social Science
 * An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
