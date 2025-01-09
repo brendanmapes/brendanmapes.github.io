@@ -45,7 +45,7 @@ permalink: /projects/
 * A <a href="https://github.com/brendanmapes/data_analysis/tree/main">collection of R scripts</a> for performing various statistical tests and analyses. Html versions linked below for direct viewing.
 <br/>
 {% raw %}
-<iframe src="https://github.com/brendanmapes/data_analysis" width="100%" height="300px" style="border:none;"></iframe>
+<iframe src="https://github.com/brendanmapes/data_analysis/tree/main" width="100%" height="300px" style="border:none;"></iframe>
 {% endraw %}
 <br/><br/>
 
