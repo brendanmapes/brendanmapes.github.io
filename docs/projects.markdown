@@ -39,8 +39,12 @@ permalink: /projects/
 
 * A  <a href="https://github.com/brendanmapes/data_analysis/tree/main">collection of R scripts</a> for performing various statistical tests and analyses. Html versions linked below for direct viewing.
 <br>
+
+
 * <a href="https://brendanmapes.github.io/Problem-set-1.html" target="_blank">EDA</a> (outliers, standard deviation, interquartile range, bias, variance, bootstrap, jacknife) 
 <br>
+
+
 * <a href="https://brendanmapes.github.io/Problem-set-2.html" target="_blank">Two-sample tests</a> (two-sample T test, Wilcoxon rank sum test, resampling, difference in proportions) 
 
 
