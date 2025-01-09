@@ -1,0 +1,111 @@
+---
+title: "EDA 1: Outliers, Standard Deviation, Interquartile Range, Bias and Variance with Bootstrap & Jackknife"
+author: "Brendan Mapes"
+date: "9/17/2021"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+salary <- read.csv("salary.csv")
+View(salary)
+```
+
+**Determining whether there are outliers in the combined data, using boxplots.**
+
+```{r}
+boxplot_1 <- boxplot(Salary ~ Sex, data = salary, main = "Starting salaries for clerical hires at a bank", xlab= "Sex", ylab="Salary in Dollars")
+boxplot_2 <- boxplot(salary$Salary, data = salary, main = "Starting salaries for clerical hires at a bank", xlab= "(Males and Females)", ylab="Salary in Dollars")
+
+```
+
+Outlier appears to exist at $8000 starting salary for a male. 
+
+**Performing separate EDA. Computing sample SD and IQR for Salary in each group**
+
+```{r}
+
+##checking distribution of each gender's starting salary
+library(ggplot2)
+library(dplyr)
+salary_male <- filter(salary, Sex == "Male")
+males_distribution <- ggplot(data = salary_male) + geom_bar(mapping = aes(x= Salary)) + ggtitle("Male starting salaries") + xlab("salary in dollars")
+males_distribution
+
+salary_female <- filter(salary, Sex == "Female")
+females_distribution <- ggplot(data = salary_female) + geom_bar(mapping = aes(x=Salary)) + xlab("salary in dollars") + ggtitle("Female starting salaries")
+females_distribution
+
+#descriptive statistics for each gender's starting salary
+summary(salary_male)
+summary(salary_female)
+
+#standard deviation of each gender's starting salary
+sd(salary_male$Salary)
+sd(salary_female$Salary)
+
+#IQR for each gender's starting salary
+IQR(salary_male$Salary)
+IQR(salary_female$Salary)
+```
+
+**Determining the bias and variance for each estimate above, using Jackknife and Bootstrap methods.**
+
+```{r}
+
+library(bootstrap)
+
+#bootstrap standard deviation
+bootstrap_males_sd <- bootstrap(salary_male$Salary, 10, sd)
+bootstrap_females_sd <- bootstrap(salary_female$Salary, 10, sd)
+bootstrap_males_sd
+bootstrap_females_sd
+
+#bootstrap IQR 
+bootstrap_males_iqr <- bootstrap(salary_male$Salary, 10, IQR)
+bootstrap_females_iqr <- bootstrap(salary_female$Salary, 10, IQR)
+bootstrap_males_iqr
+bootstrap_females_iqr
+
+#jackknife standard deviation
+jackknife_males_sd <- jackknife(salary_male$Salary, sd)
+jackknife_females_sd <- jackknife(salary_female$Salary, sd)
+jackknife_males_sd
+jackknife_females_sd
+
+#jackknife IQR
+jackknife_males_iqr <- jackknife(salary_male$Salary, IQR)
+jackknife_females_iqr <- jackknife(salary_female$Salary, IQR)
+jackknife_males_iqr
+jackknife_females_iqr
+
+##Bootstrap - standard deviation variance
+var(bootstrap_males_sd$thetastar)
+var(bootstrap_females_sd$thetastar)
+
+##Bootstrap - IQR variance
+var(bootstrap_males_iqr$thetastar)
+var(bootstrap_females_iqr$thetastar)
+
+##Jackknife - standard deviation variation
+var(jackknife_males_sd$jack.values)
+var(jackknife_females_sd$jack.values)
+    
+##Jackknife - IQR variation
+var(jackknife_males_iqr$jack.values)
+var(jackknife_females_iqr$jack.values)
+
+##Jackknife - standard deviation bias
+jackknife_males_sd$jack.bias
+jackknife_females_sd$jack.bias
+
+##Jackknife - IQR bias
+jackknife_males_iqr$jack.bias
+jackknife_females_iqr$jack.bias
+
+```
