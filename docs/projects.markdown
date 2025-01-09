@@ -37,7 +37,7 @@ permalink: /projects/
 
 #### Data analysis
 
-* A  <a href="https://github.com/brendanmapes/brendanmapes.github.io/tree/master/docs/data_analysis">collectionn of R scripts</a> for performing various statistical tests and analyses. 
+* A  <a href="https://github.com/brendanmapes/brendanmapes.github.io/tree/master/docs/data_analysis">collection of R scripts</a> for performing various statistical tests and analyses. 
 
 #### Quantitative Social Science
 * An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
