@@ -1,0 +1,87 @@
+---
+title: "Two-sample T test, Wilcoxon Rank-Sum Test, Resampling, Difference in Proportions"
+author: "Brendan Mapes"
+date: "9/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(MASS)
+library(magrittr)
+library(ggplot2)
+library(dplyr)
+```
+
+### Using R's "Crabs" data
+
+_Parametric procedure (two sample t-test), non-parametric procedure (Wilcoxon rank-sum test), and resampling (bootstrap, t-test) all show a significant difference in the means of carapace length of blue and orange crabs. We know these results are significant by the extremely low p-values presented in the R output._
+```{r}
+crab <- crabs
+crab_O <- subset(crab, sp =="O") 
+crab_B <- subset(crab, sp =="B")
+
+#two sample t-test (Parametric)
+t.test(crab_O$CL, crab_B$CL, alternative = "two.sided", var.equal = FALSE)
+
+#Wilcoxon rank-sum test (Non-parametric)
+wilcox.test(crab_O$CL, crab_B$CL, alternative = "two.sided")
+
+#resampling
+mean(sample(crab_O$CL, size = 100, replace = T))
+mean(sample(crab_B$CL, size = 100, replace = T))
+
+#resampled t-test
+resample_O <- sample(crab_O$CL, size = 100, replace = T)
+resample_B <- sample(crab_B$CL, size = 100, replace = T)
+t.test(resample_O, resample_B, alternative = "two.sided", var.equal = FALSE)
+
+
+```
+
+Assumptions underlying the two sample t test above include: 
+1) The sample of the population is representative of the population of the whole, meaning it is a simple random sample.
+2) The data follows a normal distribution, and therefore p-values can be used as a tool to determine significance of the result. 
+3) Data values must be continuous. 
+4) Measurements are independent. 
+5) Variance of the two groups are equal. 
+
+The majority of these assumptions are valid in this case. However, the sample is not large enough to create what appears to be a normal distribution, especially in the case of the blue crabs, so a larger sample would be ideal. More information on the sampling method would also be necessary, to ensure that the sample is representative of the population of crabs as a whole. F-test below reveals that variances of the samples are not exactly equal, however very close 0.9602902. A larger sample would likely help this assumption as well. With large samples, as long as data is approximately normal, and variances are approximately equal as they are here, this test's results are trustworthy. The other assumptions do hold true in this test.  
+
+The wilcoxon rank sum test does not assume the that the data analyzed has a normal distribution, so it may also be a solution to test these means if the data truly don't follow a normal distribution. The other assumptions of the wilcoxon rank sum test match those of the two sample t-test, and two sample t-test on the resampled data. 
+
+EDA to check some of the assumptions named here is included below. 
+```{r}
+
+#check distributions
+dist <- ggplot(data = crab_O) + geom_bar(mapping = aes(x=CL))
+dist2 <- ggplot(data = crab_B) + geom_bar(mapping = aes(x=CL))
+dist
+dist2
+
+#check variances
+var.test(crab_O$CL, crab_B$CL, alternative = "two.sided")
+```
+
+
+Using R's "ToothGrowth" data
+
+_If “len” is above 20, it is classified as “HIGH”; and  ”LOW”, otherwise. Determining whether there is a significant difference in the proportions of the two groupsclassified as “HIGH” using a test of proportions with a 95% confidence interval._
+```{r}
+tooth <- ToothGrowth
+
+#classifying as directed
+tooth <- tooth %>% mutate(classify = ifelse(len > 20, "HIGH", "LOW"))
+tooth_1 <- tooth %>% select(!dose)
+tooth_VC <- subset(tooth_1, supp =="VC")
+tooth_OJ <- subset(tooth_1, supp =="OJ")
+
+VC_high <- subset(tooth_VC, classify =="HIGH")
+OJ_high <- subset(tooth_OJ, classify =="HIGH")
+
+#proportion test based off number of those classified as high and total number of samples
+proportion_test <- prop.test(x = c(18, 10), n = c(30, 30))
+proportion_test
+
+```
+Relying on the p-value as a tool for determining statistical significance, this 2 sample test of the proportions of the samples suggests this result is not statistically significant. A statistically significant result would have a p-value that doesn't exceed 0.05, but the p-value here does (0.07008). 
