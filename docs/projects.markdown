@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 #### Machine learning
-* My <a href="https://brendanmapes.github.io/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There are some mistakes I need to correct. In checking the validity of my predicted spin vectors, I used an incorrect definiton of the unit vector, so these tests aren't useful. 
+* My <a href="https://brendanmapes.github.io/thesis.pdf">thesis</a> for the QMSS master's program at Columbia University, where I studied data science. I used multiple machine learning algorithms to predict spin vectors of pitched baseballs during MLB games, in order to learn about a newly discovered force acting on balls in flight, seam-shifted wake. There's one mistake I need to correct. In checking the validity of my predicted spin vectors, I used an incorrect definiton of the unit vector, so these tests used to assess the imputed spin vectors aren't useful. 
   
 {% raw %}
 <iframe src="/thesis.pdf" width="100%" height="500px" style="border:none;"></iframe>
