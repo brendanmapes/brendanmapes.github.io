@@ -37,12 +37,7 @@ permalink: /projects/
 
 #### Data analysis
 
-
-<br/><br/>
-{% raw %}
-<iframe src="/Problem-set-1.html" width="100%" height="500px" style="border:none;"></iframe>
-{% endraw %}
-<br/><br/>
+* A collection of R scripts for performing various statistical tests and analyses. 
 
 
 #### Quantitative Social Science
