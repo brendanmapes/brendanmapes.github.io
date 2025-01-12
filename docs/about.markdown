@@ -225,7 +225,7 @@ Before moving to New York, I grew up in Centerburg, Ohio. I went to Oberlin Coll
       <img src="../baseball_2.png" alt="baseball photo 1" />
     </div>
     <div class="photo-item">
-      <img src="../baseball.png" alt="baseball photo 3" />
+      <img src="../IMG_1273.jpg" alt="baseball photo 3" />
     </div>
     <div class="photo-item">
       <img src="../IMG_8851.jpg" alt="football photo" />
