@@ -6,4 +6,4 @@ order: 4
 ---
 
 
-<iframe src="/resume.docx" width="100%" height="100%" style="border:none;"></iframe>
+<iframe src="/resume.pdf" width="100%" height="100%" style="border:none;"></iframe>
