@@ -48,7 +48,7 @@ permalink: /projects/
 * <a href="https://brendanmapes.github.io/Problem-set-4.html" target="_blank">Linear regression, Principal component regression, Lasso & Stepwise</a>
 * <a href="https://brendanmapes.github.io/Problem-set-6.html" target="_blank">ANCOVA, Repeated measures ANOVA</a>
 * <a href="https://brendanmapes.github.io/Problem-set-7.html" target="_blank">Logistic regression</a>
-* <a href="https://brendanmapes.github.io/Problem-set-9.html" target="_blank">Survival functions</a>Kaplan-Meier, Fleming-Harrington
+* <a href="https://brendanmapes.github.io/Problem-set-9.html" target="_blank">Survival functions </a>(Kaplan-Meier, Fleming-Harrington)
 * <a href="https://brendanmapes.github.io/Problem-set-10.html" target="_blank">Cox proportional hazards model</a>
 
 
