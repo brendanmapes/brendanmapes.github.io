@@ -43,7 +43,15 @@ permalink: /projects/
 <br>
 
 * <a href="https://brendanmapes.github.io/Problem-set-1.html" target="_blank">EDA</a> (outliers, standard deviation, interquartile range, bias, variance, bootstrap, jacknife) 
-* <a href="https://brendanmapes.github.io/Problem-set-2.html" target="_blank">Two-sample tests</a> (two-sample T-test, Wilcoxon rank sum test, resampling, difference in proportions) 
+* <a href="https://brendanmapes.github.io/Problem-set-2.html" target="_blank">Two-sample tests</a> (two-sample T-test, Wilcoxon rank sum test, resampling, difference in proportions)
+* <a href="https://brendanmapes.github.io/Problem-set-3.html" target="_blank">Multiple linear regression & least median of squares</a>
+* <a href="https://brendanmapes.github.io/Problem-set-4.html" target="_blank">Linear regression, Principal component regression, Lasso & Stepwise</a>
+* <a href="https://brendanmapes.github.io/Problem-set-6.html" target="_blank">ANCOVA, Repeated measures ANOVA</a>
+* <a href="https://brendanmapes.github.io/Problem-set-7.html" target="_blank">Logistic regression</a>
+* <a href="https://brendanmapes.github.io/Problem-set-9.html" target="_blank">Survival functions</a>Kaplan-Meier, Fleming-Harrington
+* <a href="https://brendanmapes.github.io/Problem-set-10.html" target="_blank">Cox proportional hazards model</a>
+
+
 
 
 
