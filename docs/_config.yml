@@ -21,7 +21,7 @@
 title: Brendan Mapes  
 email: brendanmapes42@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Here's some things I've worked on and some things I think are interesting. 
+ Some things I've worked on and some things I think are interesting. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: brendanmapes
