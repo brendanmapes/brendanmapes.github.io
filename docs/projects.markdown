@@ -52,6 +52,10 @@ permalink: /projects/
 * <a href="https://brendanmapes.github.io/Problem-set-10.html" target="_blank">Cox proportional hazards model</a>
 
 
+#### Quantitative Social Science
+
+
+* An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
 
 
 
