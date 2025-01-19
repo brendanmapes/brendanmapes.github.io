@@ -57,8 +57,3 @@ permalink: /projects/
 
 
 
-#### Quantitative Social Science
-* An <a href="https://www.youtube.com/watch?v=tCmwcU0fP28"> alternative proposal</a> for my master's thesis research, which I left behind in grad school because getting access to the necessary data was challenging. 
-
-
-
