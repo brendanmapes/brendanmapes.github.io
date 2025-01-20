@@ -31,7 +31,7 @@ Regardless, a model that can classify misinformation based off the first 50 word
 
 Overall, to improve model performance further I'd need better data. A larger corpus of labelled Spanish articles is necessary. Further preprocessing may also help results, but not as dramatically as better data.
 
-##Import data
+**Import data**
 
 
 ```python
@@ -39,9 +39,9 @@ import pandas as pd
 data = pd.read_csv("fakes1000.csv")
 ```
 
-##Preprocessing
+**Preprocessing**
 
-###Tokenize in spanish via *spaCy*
+***Tokenize in spanish via *spaCy****
 
 
 ```python
@@ -199,7 +199,7 @@ data.head()
 
 
 
-### Remove spanish stop words via *spaCy*
+***Remove spanish stop words via *spaCy****
 
 
 ```python
@@ -238,7 +238,7 @@ data.rename(columns = {'without_stopwords': 'Text'}, inplace = True)
       errors=errors,
     
 
-### Train, test, split: balancing with respect to class (fake/real)
+***Train, test, split: balancing with respect to class (fake/real)***
 
 
 ```python
@@ -312,7 +312,7 @@ X_train.head()
 
 
 
-## Fitting model on prepocessed data
+**Fitting model on prepocessed data**
 
 
 ```python
@@ -411,7 +411,7 @@ history = model.fit(preprocessor(X_train), y_train,
     102/102 [==============================] - 6s 64ms/step - loss: 0.0188 - acc: 0.9938 - val_loss: 1.0987 - val_acc: 0.7222
     
 
-##**Best Model**
+**Best Model**
 
 
 ```python
@@ -428,7 +428,7 @@ model.evaluate(preprocessor(X_test), y_test)
 
 
 
-## Transfer learning
+**Transfer learning**
 
 Here I tried utilizing BERT's multilingual model, but it resulted in a resource allocation error at the model.compile step. For that reason I have commented that portion of the code out, and included only a screenshot of the output. I suspect that model would perform better than those I was able to try. From what I've read about the Spanish language pre-trained models, BERT and the closely related BETO model are typically the best performers. However, below I had success getting one other pretrained model to run, which I found suggested on stackoverflow as an effective alternative to BERT and BETO. 
 
