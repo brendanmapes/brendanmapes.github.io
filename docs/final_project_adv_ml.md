@@ -41,7 +41,7 @@ data = pd.read_csv("fakes1000.csv")
 
 **Preprocessing**
 
-***Tokenize in spanish via *spaCy****
+*Tokenize in spanish via *spaCy**
 
 
 ```python
@@ -199,7 +199,7 @@ data.head()
 
 
 
-***Remove spanish stop words via *spaCy****
+*Remove spanish stop words via *spaCy**
 
 
 ```python
@@ -238,7 +238,7 @@ data.rename(columns = {'without_stopwords': 'Text'}, inplace = True)
       errors=errors,
     
 
-***Train, test, split: balancing with respect to class (fake/real)***
+**Train, test, split: balancing with respect to class (fake/real)**
 
 
 ```python
@@ -574,7 +574,7 @@ model.evaluate(preprocessor(X_test), y_test)
 
 
 
-##Improving model inputs (new corpus)
+**Improving model inputs (new corpus)**
 
 
 ```python
@@ -582,7 +582,7 @@ import pandas as pd
 data2 = pd.read_csv("test.csv")
 ```
 
-###Preprocessing again
+**Preprocessing again**
 
 
 ```python
@@ -947,7 +947,7 @@ model.evaluate(preprocessor(X_test), y_test)
 
 
 
-*Citing Data Sources*
+**Citing Data Sources**
 
 FakeNewsCorpusSpanish:
 
