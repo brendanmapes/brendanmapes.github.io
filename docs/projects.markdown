@@ -20,12 +20,8 @@ permalink: /projects/
 {% endraw %}
 <br/><br/>
 
-* A <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories.  
+* A <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.md"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories.  
 
-{% raw %}
-<iframe src="/final_project_adv_ml.md" width="100%" height="300px" style="border:none;"></iframe>
-{% endraw %}
-<br/><br/>
 
 #### Data visualization
 * An <a href="https://www.communitiesspeakproject.com/boroughs">interactive map visualization</a> of issues facing New Yorkers that were surveyed by a research team I worked with during my time at Columbia, called Communties Speak. The majority of my work for this project was either data engineering or analysis, managing survey data intake through analysis and reporting. Unfortunately we had to use a gradient color palette for discrete, categorical variables on this one. 
