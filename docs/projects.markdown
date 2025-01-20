@@ -20,7 +20,7 @@ permalink: /projects/
 {% endraw %}
 <br/><br/>
 
-* A <a href="https://brendanmapes.github.io/final_project_adv_ml.ipynb"> report</a>. associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Advanced Machine Learning GR5074, where I used neural networks to identify fake news stories in Spanish. 
+* A <a href="https://brendanmapes.github.io/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Advanced Machine Learning GR5074, where I used neural networks to identify fake news stories in Spanish. 
 
 {% raw %}
 <iframe src="/final_project_adv_mln.ipynb" width="100%" height="300px" style="border:none;"></iframe>
