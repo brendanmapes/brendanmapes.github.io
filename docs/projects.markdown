@@ -13,7 +13,7 @@ permalink: /projects/
 {% endraw %}
 <br/><br/>
 
-* Machine learning for functional genomics: Here's a repo for a project where I used machine learning to analyize human tissue samples, for <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/README.md">functional genomics</a> research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducing a more sophisticated definition of cell types during model training, with more detailed cell types encoded in hierarchical trees. Here's a  <a href= "https://drive.google.com/file/d/1OIK8L_O8s9RQTA5P-nzu71OfHS4MlGeV/view?usp=drive_link">video</a> where my partner and I summarize the work we did. 
+* Machine learning for functional genomics: Here's a <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/README.md"> github repo </a> for a project where I used machine learning to analyize human tissue samples, for functional genomics research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducing a more sophisticated definition of cell types during model training, with more detailed cell types encoded in hierarchical trees. Here's a  <a href= "https://drive.google.com/file/d/1OIK8L_O8s9RQTA5P-nzu71OfHS4MlGeV/view?usp=drive_link">video</a> where my partner and I summarize the work we did. 
 
 {% raw %}
 <iframe src="/research_summary.pdf" width="100%" height="300px" style="border:none;"></iframe>
