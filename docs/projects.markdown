@@ -13,14 +13,18 @@ permalink: /projects/
 {% endraw %}
 <br/><br/>
 
-* A repo for a project where I applied machine learning for <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/README.md">functional genomics</a> research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducing a more sophisticated definition of cell types during model training, with more detailed cell types encoded in hierarchical trees. Here's a  <a href= "https://drive.google.com/file/d/1OIK8L_O8s9RQTA5P-nzu71OfHS4MlGeV/view?usp=drive_link">video</a> where my partner and I summarize the work we did. 
+* Machine learning for functional genomics: Here's a repo for a project where I used machine learning to analyize human tissue samples, for <a href="https://github.com/brendanmapes/ml4fg_final/blob/main/README.md">functional genomics</a> research. In this project we aimed to improve the precision of cell type deconvolution methods, which estimate the proportions of different cell types within a sample of tissue. To do this we proposed introducing a more sophisticated definition of cell types during model training, with more detailed cell types encoded in hierarchical trees. Here's a  <a href= "https://drive.google.com/file/d/1OIK8L_O8s9RQTA5P-nzu71OfHS4MlGeV/view?usp=drive_link">video</a> where my partner and I summarize the work we did. 
 
 {% raw %}
 <iframe src="/research_summary.pdf" width="100%" height="300px" style="border:none;"></iframe>
 {% endraw %}
 <br/><br/>
 
-* A <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Projects in Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories. The best peforming model had 78% accuracy, but a model that can classify misinformation based off the first 50 words of an articles at higher than 75% accuracy is fairly encouraging. The biggest challenge in this work was in preprocessing Spanish text. Conventional methods for preprocessing text have to be adjusted for Spanish text, as opposed to English. 
+* Machine learning for fake news detection: Here's <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Projects in Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories. The best peforming model had 78% accuracy, but a model that can classify misinformation based off the first 50 words of an articles at higher than 75% accuracy is fairly encouraging. The biggest challenge in this work was in preprocessing Spanish text. Conventional methods for preprocessing text have to be adjusted for Spanish text, as opposed to English. 
+
+{% raw %}
+<iframe src="https://nbviewer.org/github/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb" width="100%" height="500px" style="border:none;"></iframe>
+{% endraw %}
 
 
 #### Data visualization
