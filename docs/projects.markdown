@@ -25,7 +25,7 @@ permalink: /projects/
 {% raw %}
 <iframe src="https://nbviewer.org/github/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb" width="100%" height="500px" style="border:none;"></iframe>
 {% endraw %}
-
+<br/><br/>
 
 #### Data visualization
 * An <a href="https://www.communitiesspeakproject.com/boroughs">interactive map visualization</a> of issues facing New Yorkers that were surveyed by a research team I worked with during my time at Columbia, called Communties Speak. The majority of my work for this project was either data engineering or analysis, managing survey data intake through analysis and reporting. Unfortunately we had to use a gradient color palette for discrete, categorical variables on this one. 
