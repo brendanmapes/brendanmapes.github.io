@@ -20,7 +20,7 @@ permalink: /projects/
 {% endraw %}
 <br/><br/>
 
-* Machine learning for fake news detection: Here's <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Projects in Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories. The best peforming model had 78% accuracy, but a model that can classify misinformation based off the first 50 words of an articles at higher than 75% accuracy is fairly encouraging. The biggest challenge in this work was in preprocessing Spanish text. Conventional methods for preprocessing text have to be adjusted for Spanish text, as opposed to English. 
+* Machine learning for fake news detection: Here's a <a href="https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb"> report</a> associated with my final project for a course within Columbia's Graduate School of Arts and Sciences, Projects in Advanced Machine Learning (GR5074), where I used neural networks to identify fake Spanish news stories. The best peforming model had 78% accuracy, but a model that can classify misinformation based off the first 50 words of an articles at higher than 75% accuracy is fairly encouraging. The biggest challenge in this work was in preprocessing Spanish text. Conventional methods for preprocessing text have to be adjusted for Spanish text, as opposed to English. 
 
 {% raw %}
 <iframe src="https://nbviewer.org/github/brendanmapes/brendanmapes.github.io/blob/master/docs/final_project_adv_ml.ipynb" width="100%" height="500px" style="border:none;"></iframe>
