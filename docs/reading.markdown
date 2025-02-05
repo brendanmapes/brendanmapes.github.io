@@ -10,7 +10,7 @@ order: 5
 
 * <a href= "https://www.smithsonianmag.com/smithsonian-institution/robert-pirsig-zen-art-motorcycle-maintenance-resonates-today-180975768"> Why Robert Pirsig’s ‘Zen and the Art of Motorcycle Maintenance’ Still Resonates Today.<a/> My favorite book.
 
-* <a href= "https://www.nytimes.com/2025/01/26/opinion/liberalism-democrats-trump.html"> On how to fix liberalism.</a>. 
+* <a href= "https://www.nytimes.com/2025/01/26/opinion/liberalism-democrats-trump.html"> On how to fix liberalism</a>. 
 
 #### My own writing
 * <a href= "https://brendanmapes.github.io/creative 9_21.pdf"> Thinking about vanity. </a>
