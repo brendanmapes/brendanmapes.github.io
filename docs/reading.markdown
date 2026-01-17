@@ -19,4 +19,4 @@ order: 5
 
 * <a href= "https://brendanmapes.github.io/January 2026.pdf"> Thinking about despair. </a>
 
-* <a href= "https://brendanmapes.github.io/creative 2024_21_25.pdf"> Masculinity. </a>
+* <a href= "https://brendanmapes.github.io/creative 2024_21_25.pdf"> THinking about masculinity. </a>
