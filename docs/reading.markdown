@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Miscellaneous
+title: Reading & Writing
 permalink: /miscellaneous/
 order: 5
 ---
