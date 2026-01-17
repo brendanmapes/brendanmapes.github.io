@@ -16,3 +16,5 @@ order: 5
 * <a href= "https://brendanmapes.github.io/creative 9_21.pdf"> Thinking about vanity. </a>
 
 * <a href= "https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=3576&context=drs-conference-papers"> Thinking about AI ethics & safety in design research. </a>
+
+* <a href= "https://github.com/brendanmapes/brendanmapes.github.io/blob/master/docs/January%202026.pdf"> Thinking about despair. </a>
