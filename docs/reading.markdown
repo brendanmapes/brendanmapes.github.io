@@ -18,3 +18,5 @@ order: 5
 * <a href= "https://dl.designresearchsociety.org/cgi/viewcontent.cgi?article=3576&context=drs-conference-papers"> Thinking about AI ethics & safety in design research. </a>
 
 * <a href= "https://brendanmapes.github.io/January 2026.pdf"> Thinking about despair. </a>
+
+* <a href= "https://brendanmapes.github.io/creative 2024_21_25.pdf> Masculinity. </a>
