@@ -7,73 +7,55 @@ permalink: /about me/
 I'm currently working at SUNY's Office of Higher Educaiton in Prison, as Data Analytics Development Manager. My work is focused on enhancing the team's data analytics practice, using data to inform HEP programs across the SUNY system. I'm also contributing to mixed-methods research supporting the office’s core mission – ensuring all incarcerated New Yorkers have equitable access to higher education during their incarceration and after their release. 
 
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Gallery</title>
+<style>
+  .photo-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: nowrap; /* Keeps them side-by-side */
+    padding: 20px 0;
+  }
 
-  <style>
-    /* General body styling */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4; /* Light background for contrast */
+  .photo-item {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: visible; /* Changed to visible so the scale effect isn't clipped */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+
+  .photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .photo-item:hover {
+    transform: scale(1.1); /* Reduced scale slightly for better fit, but you can change back to 1.5 */
+    z-index: 10;
+  }
+
+  /* Responsive: stack them on small mobile screens */
+  @media (max-width: 600px) {
+    .photo-container {
+      flex-direction: column;
+      align-items: center;
     }
+  }
+</style>
 
-    /* Group of photos container */
-    .photo-group {
-      display: flex; /* Use flexbox to arrange images side by side */
-      gap: 16px; /* Space between the images */
-      justify-content: center; /* Center the photos horizontally */
-      flex-wrap: wrap; /* Allow wrapping if the screen is small */
-      padding: 20px; /* Padding around the group */
-    }
-
-    /* Individual photo container */
-    .photo-item {
-      position: relative;
-      width: 300px; /* Set a fixed width for the container */
-      height: 300px; /* Set a fixed height for the container */
-      overflow: hidden; /* Hide the overflow */
-      border-radius: 8px; /* Rounded corners for the container */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-      transition: transform 0.3s ease; /* Smooth transition for enlarging */
-      display: flex; /* Use flexbox to center images */
-      align-items: center; /* Vertically center the image */
-      justify-content: center; /* Horizontally center the image */
-    }
-
-    /* Styling the images to fit their container */
-    .photo-item img {
-      width: 100%; /* Ensure the images take up full container width */
-      height: 100%; /* Ensure the images take up full container height */
-      object-fit: cover; /* Ensure the images cover the container without stretching */
-      border-radius: 8px; /* Rounded corners for the images */
-    }
-
-    /* Hover effect: enlarge the entire container */
-    .photo-item:hover {
-      transform: scale(1.5); /* Enlarge the entire container (image + border) */
-      z-index: 10; /* Bring the container to the front */
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Group of Photos -->
-  <div class="photo-group">
-    <div class="photo-item">
-      <img src="../SUNY_OHEP.png" alt="OHEP photo" />
-    </div>
-
-  <div class="photo-group">
-    <div class="photo-item">
-      <img src="../IMG_20250327_105752 (1).jpg" alt="OHEP photo 2" />
-    </div>
-    
-<br>
+<div class="photo-container">
+  <div class="photo-item">
+    <img src="../SUNY_OHEP.png" alt="OHEP photo" />
+  </div>
+  <div class="photo-item">
+    <img src="../IMG_20250327_105752 (1).jpg" alt="OHEP photo 2" />
+  </div>
+</div>
 <br>
 
     
