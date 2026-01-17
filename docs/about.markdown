@@ -68,6 +68,9 @@ I'm currently working at SUNY's Office of Higher Educaiton in Prison, as Data An
       <img src="../SUNY_OHEP.png" alt="OHEP photo" />
     </div>
 
+    
+<br>
+<br>
 
     
 Prior to SUNY OHEP, I spent two years working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
