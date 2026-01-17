@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reading & Writing
-permalink: /miscellaneous/
+permalink: /reading&writing/
 order: 5
 ---
 
