@@ -68,6 +68,10 @@ I'm currently working at SUNY's Office of Higher Educaiton in Prison, as Data An
       <img src="../SUNY_OHEP.png" alt="OHEP photo" />
     </div>
 
+  <div class="photo-group">
+    <div class="photo-item">
+      <img src="../IMG_20250327_105752 (1).jpg" alt="OHEP photo 2" />
+    </div>
     
 <br>
 <br>
