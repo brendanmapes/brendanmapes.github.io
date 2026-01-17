@@ -4,83 +4,9 @@ order: 2
 title: About Me
 permalink: /about me/
 ---
+I'm currently working at SUNY's Office of Higher Educaiton in Prison, as Data Analytics Development Manager. My work is focused on enhancing the team's data analytics practice, using data to inform HEP programs across the SUNY system. I'm also contributing to mixed-methods research supporting the office’s core mission – ensuring all incarcerated New Yorkers have equitable access to higher education during their incarceration and after their release. 
 
-In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). I studied probability and statistics, as the foundation of emerging data science techniques, and how to apply those data science techniques, like data mining, machine learning, and AI, in a wide variety of fields.
-
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photo Gallery</title>
-
-  <style>
-    /* General body styling */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4; /* Light background for contrast */
-    }
-
-    /* Photo gallery container using CSS Grid */
-    .photo-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
-      gap: 16px; /* Space between the images */
-      padding: 20px; /* Padding around the gallery */
-      justify-items: center; /* Center images in each grid cell */
-    }
-
-    /* Gallery item styling */
-    .gallery-item {
-      position: relative; /* Needed for hover effects */
-      overflow: hidden; /* Ensures the image doesn't overflow out of the container */
-      border-radius: 8px; /* Rounded corners for images */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-      transition: transform 0.3s ease; /* Smooth transition for enlarging the container */
-      display: flex; /* Use flexbox to center images */
-      align-items: center; /* Vertically center the image */
-      justify-content: center; /* Horizontally center the image */
-    }
-
-    /* Styling the images to make sure they fit inside the gallery item */
-    .gallery-item img {
-      width: 100%; /* Ensure the images take up full container width */
-      height: 100%; /* Ensure the images take up full container height */
-      object-fit: cover; /* This ensures images cover the container area without stretching */
-      border-radius: 8px; /* Rounded corners for images */
-    }
-
-    /* Hover effect: enlarge the entire container */
-    .gallery-item:hover {
-      transform: scale(1.5); /* Enlarge the entire container (image + border) */
-      z-index: 10; /* Bring the container to the front */
-    }
-  </style>
-</head>
-<body>
-
-  <div class="photo-gallery">
-    <div class="gallery-item">
-      <img src="../IMG-20230511-WA0010.jpg" alt="grad photo 1" />
-    </div>
-    <div class="gallery-item">
-      <img src="../grad photo.png" alt="grad photo 2" />
-    </div>
-    <div class="gallery-item">
-      <img src="../grad1.png" alt="grad photo 3" />
-    </div>
-    <div class="gallery-item">
-      <img src="../IMG-20230512-WA0009.jpg" alt="grad photo 4" />
-    </div>
-  </div>
-
-</body>
-</html>
-
- <br>
- <br>
-Since graduation I've been working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
+Prior to SUNY OHEP, I spent two years working at <a href="https://www.publicpolicylab.org"> Public Policy Lab</a>, a civic innovation and design research firm that works primarily with government agencies to rethink how they deliver social services.
 
 <html lang="en">
 <head>
@@ -158,7 +84,81 @@ Since graduation I've been working at <a href="https://www.publicpolicylab.org">
 
 <br>
 <br>
+In 2023 I graduated from Columbia University with master's degrees in data science and social policy (an MA from  <a href="https://qmss.columbia.edu"> QMSS </a> and an MIA from <a href="https://www.sipa.columbia.edu/sipa-education/masters-programs/master-international-affairsSIPA"> SIPA</a>). I studied probability and statistics, as the foundation of emerging data science techniques, and how to apply those data science techniques, like data mining, machine learning, and AI, in a wide variety of fields.
 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+
+  <style>
+    /* General body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4; /* Light background for contrast */
+    }
+
+    /* Photo gallery container using CSS Grid */
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates responsive columns */
+      gap: 16px; /* Space between the images */
+      padding: 20px; /* Padding around the gallery */
+      justify-items: center; /* Center images in each grid cell */
+    }
+
+    /* Gallery item styling */
+    .gallery-item {
+      position: relative; /* Needed for hover effects */
+      overflow: hidden; /* Ensures the image doesn't overflow out of the container */
+      border-radius: 8px; /* Rounded corners for images */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+      transition: transform 0.3s ease; /* Smooth transition for enlarging the container */
+      display: flex; /* Use flexbox to center images */
+      align-items: center; /* Vertically center the image */
+      justify-content: center; /* Horizontally center the image */
+    }
+
+    /* Styling the images to make sure they fit inside the gallery item */
+    .gallery-item img {
+      width: 100%; /* Ensure the images take up full container width */
+      height: 100%; /* Ensure the images take up full container height */
+      object-fit: cover; /* This ensures images cover the container area without stretching */
+      border-radius: 8px; /* Rounded corners for images */
+    }
+
+    /* Hover effect: enlarge the entire container */
+    .gallery-item:hover {
+      transform: scale(1.5); /* Enlarge the entire container (image + border) */
+      z-index: 10; /* Bring the container to the front */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="photo-gallery">
+    <div class="gallery-item">
+      <img src="../IMG-20230511-WA0010.jpg" alt="grad photo 1" />
+    </div>
+    <div class="gallery-item">
+      <img src="../grad photo.png" alt="grad photo 2" />
+    </div>
+    <div class="gallery-item">
+      <img src="../grad1.png" alt="grad photo 3" />
+    </div>
+    <div class="gallery-item">
+      <img src="../IMG-20230512-WA0009.jpg" alt="grad photo 4" />
+    </div>
+  </div>
+
+</body>
+</html>
+
+ <br>
+ <br>
 Before moving to New York, I grew up in Centerburg, Ohio. I went to Oberlin College to study physics and Spanish and play baseball and football. 
 
 <html lang="en">
