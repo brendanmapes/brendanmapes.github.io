@@ -4,7 +4,7 @@ order: 2
 title: About Me
 permalink: /about me/
 ---
-I'm currently working at SUNY's Office of Higher Educaiton in Prison, as Data Analytics Development Manager. My work is focused on enhancing the team's data analytics practice, using data to inform HEP programs across the SUNY system. I'm also contributing to mixed-methods research supporting the office’s core mission – ensuring all incarcerated New Yorkers have equitable access to higher education during their incarceration and after their release. 
+I'm currently working at SUNY's Office of Higher Education in Prison, as Data Analytics Development Manager. My work is focused on enhancing the team's data analytics practice, using data to inform HEP programs across the SUNY system. I'm also contributing to mixed-methods research supporting the office’s core mission – ensuring all incarcerated New Yorkers have equitable access to higher education during their incarceration and after their release. 
 
 
 <style>
